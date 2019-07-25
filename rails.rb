@@ -9,20 +9,25 @@
 # returns "Hello, World" for the given language, for at least 3 languages. It should default to returning English.
 #hello_world("es") should return "Hola Mundo"
 #hello_world("de") should return "Hallo Welt"
-lang = ["es", "de", "en"]
+
 def helloworld
 
 if lang === "es"
     puts "Hola Mundo"
 elsif lang ==="de"
     puts "Hallo Welt"
-else lang ==="en"
+else 
     puts "Hello World"
     
 greeting
-
+end
 end 
-puts helloworld(lang ("es"))
+
+helloworld "es"
+helloworld "de"
+helloworld "en"
+
+if
 
 
 # The Grade Assigner
@@ -45,8 +50,9 @@ puts helloworld(lang ("es"))
         grade ="D"
     else score>= 50
         grade ="F"
-end 
-    grade 
+end
+end
+    
 puts grade (54)
 
 

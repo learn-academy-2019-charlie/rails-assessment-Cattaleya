@@ -18,14 +18,16 @@ MVC is a pattern for the architecture of a software application. It separates an
   ```
   file: config/routes
   
-  2. Create the _database__migratiion 
+  2. Create the migratiion 
   
-  code: Calss StaticController < ApplicationController 
+  code: rails -g migratiion (filename)
+
+
   ```
   class statics < ApplicationController
   
   def about 
-    _______________________
+    
   end
   ```
   
